@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website - Home</title>
+
+```
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        min-height: 100vh;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+    }
+
+    /* Navigation Bar */
+    nav {
+        background: white;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #333;
+        margin: 0 20px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    nav a:hover {
+        color: #667eea;
+    }
+
+    /* Main Section */
+    .home {
+        text-align: center;
+        color: white;
+        padding: 80px 20px 40px;
+    }
+
+    .home h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .home p {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    /* Cards */
+    .cards {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background: white;
+        width: 280px;
+        padding: 35px 25px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .card h2 {
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    .card p {
+        color: #666;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 12px 25px;
+        background: #667eea;
+        color: white;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+
+    .btn:hover {
+        background: #764ba2;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        color: white;
+        padding: 30px;
+        margin-top: 30px;
+    }
+
+    /* Mobile */
+    @media (max-width: 700px) {
+        .home h1 {
+            font-size: 36px;
+        }
+
+        nav a {
+            display: block;
+            margin: 10px;
+        }
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<!-- Navigation -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="welcome.html">Welcome</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<!-- Home Section -->
+<section class="home">
+
+    <h1>Welcome to My Website 🌐</h1>
+
+    <p>
+        Explore our website and discover what we have to offer.
+    </p>
+
+    <!-- Three Access Cards -->
+    <div class="cards">
+
+        <!-- Welcome -->
+        <div class="card">
+            <h2>👋 Welcome</h2>
+
+            <p>
+                Visit our welcome page and learn more about our website.
+            </p>
+
+            <a href="welcome.html" class="btn">
+                Visit Welcome
+            </a>
+        </div>
+
+        <!-- Gallery -->
+        <div class="card">
+            <h2>📸 Gallery</h2>
+
+            <p>
+                Explore our collection of images and memorable moments.
+            </p>
+
+            <a href="gallery.html" class="btn">
+                View Gallery
+            </a>
+        </div>
+
+        <!-- Contact -->
+        <div class="card">
+            <h2>📞 Contact Us</h2>
+
+            <p>
+                Have questions? Get in touch with us through our contact page.
+            </p>
+
+            <a href="contact.html" class="btn">
+                Contact Us
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+    © 2026 My Website. All Rights Reserved.
+</footer>
+```
+
+</body>
+</html>
